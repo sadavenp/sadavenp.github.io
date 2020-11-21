@@ -57,6 +57,7 @@ table {
 
 /* ---------- Hello, my name is Sarah Davenport and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2020 ------------ */
 
+/* background information */
 html, body {
   height: 100%;
   width: 100%;
@@ -69,6 +70,7 @@ html, body {
 	
 }
 
+/* command for centering the body text */
 .center {
     width: 800px;
 	padding: 2%;
@@ -76,6 +78,7 @@ html, body {
 	text-align: center;
 }
 
+/* command for centering the logo */
 .center2 {
     width: 800px;
     padding: 2%;
@@ -90,6 +93,7 @@ html, body {
 	text-align: center;
 }
 
+/* information for the quote */
 h1 {
     font-family: playfair-display, serif;
     font-weight: 400;
@@ -101,6 +105,7 @@ h1 {
     color: #004b49;
 }
 
+/* didn't use this line of code, deleted h2 in index.html */
 h2 {
     font-family: utopia-std-headline, serif;
     font-weight: 400;
@@ -112,6 +117,7 @@ h2 {
     margin: 0px auto 25px auto;
 }
 
+/* information for the click here */
 p {
 	font-family: playfair-display, serif;
     font-weight: 400;
@@ -122,6 +128,7 @@ p {
     margin-top: 30px;
 }
  
+/* information for the links */
 nav{
     font-family: playfair-display,serif;
     font-weight: 700;
