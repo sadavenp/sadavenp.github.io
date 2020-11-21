@@ -24,7 +24,9 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -60,7 +62,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/webstite_background.jpg) 
         center center fixed no-repeat;
         background-size: cover;
 	
@@ -70,55 +72,63 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    margin: 1px auto;
 	text-align: center;
-	border: 4px dashed white;
 }
 
-   
+.center2 {
+    width: 800px;
+    padding: 2%;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 1px;
 	text-align: center;
 }
 
 h1 {
-	font-family: utopia-std-headline, serif;
+    font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+	font-size: 1.3em;
+    margin: 0px auto 20px auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #004b49;
 }
 
 h2 {
     font-family: utopia-std-headline, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.5em;
+	font-size: 1em;
     line-height: 1.4;
-    color: #fff;
+    color: #008080;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
+	font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1em;
     line-height: 1.6;
-    color: #fff;
+    color: #004b49;
+    margin-top: 30px;
 }
  
 nav{
-    font-family: utopia-std-headline;
-    font-size: 1.2em;
-    width: 400px;
+    font-family: playfair-display,serif;
+    font-weight: 700;
+    font-style: normal;
     margin: 0 auto;
-    border: dashed turquoise;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;   
+    margin-top: 1px;   
 }
    
 nav li{
@@ -131,14 +141,14 @@ nav a{
 }
 
 a{
-    color: darkcyan;
+    color: #004b49;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover{
-    color:black;
-    background:pink;
+    color:#ECD4FF;
+    background:rgb;
 }
 
 
