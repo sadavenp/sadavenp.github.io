@@ -82,9 +82,10 @@ html, body {
 .center2 {
     width: 800px;
     padding: 2%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 1px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -100,8 +101,6 @@ h1 {
     font-style: normal;
 	font-size: 1.3em;
     margin: 0px auto 20px auto;
-    margin-left: 100px;
-    margin-right: 100px;
     color: #004b49;
 }
 
@@ -122,10 +121,12 @@ p {
 	font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1em;
+	font-size: 1.2em;
     line-height: 1.6;
     color: #004b49;
     margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
  
 /* information for the links */
@@ -133,6 +134,7 @@ nav{
     font-family: playfair-display,serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 1.3em;
     margin: 0 auto;
     border-width: 3px 0;
     text-align: center;
